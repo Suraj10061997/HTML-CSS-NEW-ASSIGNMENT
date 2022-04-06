@@ -1,7 +1,36 @@
-/* Our CSS file. */
+body{
+    padding:0px;
+    margin:0px;
+}
+
+.container{
+    display: grid;
+    height:100vh;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+}
 
 
-.container, .content {
-width: 100%;
-height: 100%;
+.child_container{
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_color{
+    background-color: lightgray;
+}
+
+.img{
+    height: 100%;
+    width:100%;
+}
+
+.div1{
+    padding:0px 20px;
+}
+.div4{
+    padding:0px 20px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
 }
